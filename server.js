@@ -9,6 +9,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/posts", require("./src/route/post"))
+app.use("/api/users", require("./src/route/user"))
 
 // Connecting to the Database
 mongoose.connect(process.env.MONGO_URI)
