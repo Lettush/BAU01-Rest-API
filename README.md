@@ -15,3 +15,4 @@ This uses Express.js to simulate a Database for a blog.
  - Install all the dependencies (**npm i**)
  - Create a .env file which has the following contents:
  1. MONGO_URI - mongoDB atlas connection URL
+ 2. PORT - localhost port for running the server
